@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scalademo_2.13"
+		revision="0.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20200224145511"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.13.0" status="release" pubdate="20190607163157" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2866" time="0" location="C:\Users\sourav.kumar\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-wordspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-refspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-funspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalactic" name="scalactic_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-mustmatchers_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-flatspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-diagrams_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-featurespec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-freespec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-funsuite_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-propspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-shouldmatchers_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-matchers-core_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3584783" time="0" location="C:\Users\sourav.kumar\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204331" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="4708" time="1044" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.0-M2/scalatest_2.13-3.2.0-M2.pom"/>
+				<caller organisation="default" name="scalademo_2.13" conf="test, compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalatest_2.13" type="bundle" ext="jar" status="successful" details="" size="721" time="1608" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest_2.13\bundles\scalatest_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.0-M2/scalatest_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-mustmatchers_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204338" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2472" time="815" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-mustmatchers_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-mustmatchers_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.0-M2/scalatest-mustmatchers_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-mustmatchers_2.13" type="bundle" ext="jar" status="successful" details="" size="185169" time="3433" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-mustmatchers_2.13\bundles\scalatest-mustmatchers_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.0-M2/scalatest-mustmatchers_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-shouldmatchers_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129203942" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2478" time="1084" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-shouldmatchers_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-shouldmatchers_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.13/3.2.0-M2/scalatest-shouldmatchers_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-shouldmatchers_2.13" type="bundle" ext="jar" status="successful" details="" size="186456" time="4196" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-shouldmatchers_2.13\bundles\scalatest-shouldmatchers_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.13/3.2.0-M2/scalatest-shouldmatchers_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-matchers-core_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204004" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2466" time="799" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-matchers-core_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-matchers-core_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.0-M2/scalatest-matchers-core_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-mustmatchers_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-shouldmatchers_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-matchers-core_2.13" type="bundle" ext="jar" status="successful" details="" size="2035079" time="4535" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-matchers-core_2.13\bundles\scalatest-matchers-core_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.0-M2/scalatest-matchers-core_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-diagrams_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204301" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2451" time="837" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-diagrams_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-diagrams_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.13/3.2.0-M2/scalatest-diagrams_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-diagrams_2.13" type="bundle" ext="jar" status="successful" details="" size="19978" time="1224" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-diagrams_2.13\bundles\scalatest-diagrams_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.13/3.2.0-M2/scalatest-diagrams_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-wordspec_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204253" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2451" time="818" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-wordspec_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-wordspec_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.13/3.2.0-M2/scalatest-wordspec_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-wordspec_2.13" type="bundle" ext="jar" status="successful" details="" size="130500" time="1683" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-wordspec_2.13\bundles\scalatest-wordspec_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.13/3.2.0-M2/scalatest-wordspec_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-refspec_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191202092805" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2448" time="1069" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-refspec_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-refspec_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.13/3.2.0-M2/scalatest-refspec_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-refspec_2.13" type="bundle" ext="jar" status="successful" details="" size="26823" time="1025" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-refspec_2.13\bundles\scalatest-refspec_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.13/3.2.0-M2/scalatest-refspec_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-propspec_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204027" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2451" time="812" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-propspec_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-propspec_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.13/3.2.0-M2/scalatest-propspec_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-propspec_2.13" type="bundle" ext="jar" status="successful" details="" size="33805" time="1063" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-propspec_2.13\bundles\scalatest-propspec_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.13/3.2.0-M2/scalatest-propspec_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-funspec_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204329" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2448" time="793" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-funspec_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-funspec_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.13/3.2.0-M2/scalatest-funspec_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-funspec_2.13" type="bundle" ext="jar" status="successful" details="" size="107285" time="2490" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-funspec_2.13\bundles\scalatest-funspec_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.13/3.2.0-M2/scalatest-funspec_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-funsuite_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204012" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2451" time="790" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-funsuite_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-funsuite_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.13/3.2.0-M2/scalatest-funsuite_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-funsuite_2.13" type="bundle" ext="jar" status="successful" details="" size="62757" time="2881" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-funsuite_2.13\bundles\scalatest-funsuite_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.13/3.2.0-M2/scalatest-funsuite_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-freespec_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204057" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2451" time="1001" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-freespec_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-freespec_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.13/3.2.0-M2/scalatest-freespec_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-freespec_2.13" type="bundle" ext="jar" status="successful" details="" size="102728" time="3003" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-freespec_2.13\bundles\scalatest-freespec_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.13/3.2.0-M2/scalatest-freespec_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-flatspec_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204134" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2451" time="1019" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-flatspec_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-flatspec_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.0-M2/scalatest-flatspec_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-flatspec_2.13" type="bundle" ext="jar" status="successful" details="" size="172398" time="8251" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-flatspec_2.13\bundles\scalatest-flatspec_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.0-M2/scalatest-flatspec_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-featurespec_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204326" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2460" time="809" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-featurespec_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-featurespec_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.0-M2/scalatest-featurespec_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-featurespec_2.13" type="bundle" ext="jar" status="successful" details="" size="79718" time="3016" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-featurespec_2.13\bundles\scalatest-featurespec_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.0-M2/scalatest-featurespec_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-core_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204156" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3858" time="1007" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-core_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-core_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.0-M2/scalatest-core_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-wordspec_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-freespec_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-refspec_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-funspec_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-funsuite_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-flatspec_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-propspec_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-diagrams_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-matchers-core_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-featurespec_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-core_2.13" type="bundle" ext="jar" status="successful" details="" size="3725014" time="3481" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-core_2.13\bundles\scalatest-core_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.0-M2/scalatest-core_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.13">
+			<revision name="1.2.0" status="release" pubdate="20190607215354" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2751" time="825" location="C:\Users\sourav.kumar\.ivy2\cache\org.scala-lang.modules\scala-xml_2.13\ivy-1.2.0.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scala-lang.modules\scala-xml_2.13\ivy-1.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scala-xml_2.13" type="bundle" ext="jar" status="successful" details="" size="568727" time="1960" location="C:\Users\sourav.kumar\.ivy2\cache\org.scala-lang.modules\scala-xml_2.13\bundles\scala-xml_2.13-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.13">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129195047" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2239" time="1064" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalactic\scalactic_2.13\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalactic\scalactic_2.13\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.0-M2/scalactic_2.13-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalactic_2.13" type="bundle" ext="jar" status="successful" details="" size="1551273" time="17880" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalactic\scalactic_2.13\bundles\scalactic_2.13-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.0-M2/scalactic_2.13-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest-compatible">
+			<revision name="3.2.0-M2" status="release" pubdate="20191129204306" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1657" time="822" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-compatible\ivy-3.2.0-M2.xml" searched="true" original-local-location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-compatible\ivy-3.2.0-M2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.0-M2/scalatest-compatible-3.2.0-M2.pom"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="3.2.0-M2" rev-constraint-default="3.2.0-M2" rev-constraint-dynamic="3.2.0-M2" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scalatest-compatible" type="bundle" ext="jar" status="successful" details="" size="1416" time="887" location="C:\Users\sourav.kumar\.ivy2\cache\org.scalatest\scalatest-compatible\bundles\scalatest-compatible-3.2.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.0-M2/scalatest-compatible-3.2.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.0" status="release" pubdate="20190607163246" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2691" time="0" location="C:\Users\sourav.kumar\.ivy2\cache\org.scala-lang\scala-library\ivy-2.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.pom"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="2.13.0"/>
+				<caller organisation="org.scalatest" name="scalatest-wordspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="default" name="scalademo_2.13" conf="test, compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="0.1"/>
+				<caller organisation="org.scalatest" name="scalatest-refspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-funspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-core_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalactic" name="scalactic_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-mustmatchers_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-flatspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-diagrams_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-featurespec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-freespec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest_2.13" conf="default, compile, runtime, master" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-funsuite_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-propspec_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scalatest" name="scalatest-shouldmatchers_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="1.2.0"/>
+				<caller organisation="org.scalatest" name="scalatest-matchers-core_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.2.0-M2"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5693401" time="0" location="C:\Users\sourav.kumar\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
